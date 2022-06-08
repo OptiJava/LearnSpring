@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20da51b1-8089-4370-9918-74064a410a7c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn_spring/read_resources/ReadResourcesMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn_spring/sample_bean/SampleBeanMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn_spring/sample_bean/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn_spring/sample_bean/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn_spring/web/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn_spring/web/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ReadResources/Config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="20da51b1-8089-4370-9918-74064a410a7c" name="变更" comment="Create sample_bean,read_resources,web">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn_spring/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn_spring/web/user/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn_spring/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn_spring/web/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn_spring/web/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/signin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +79,7 @@
       <recent name="D:\Program\Project\resources\app\Git\Projects\LearnSpring\src\main\java\com\learn_spring\ReadResources" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ReadResourcesMain">
+  <component name="RunManager" selected="应用程序.WebConfig">
     <configuration name="ReadResourcesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn_spring.read_resources.ReadResourcesMain" />
       <module name="LearnSpring.main" />
@@ -114,8 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn_spring.web.WebConfig" />
+      <module name="LearnSpring.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn_spring.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP 请求.generated-requests | #1" />
+        <item itemvalue="应用程序.WebConfig" />
         <item itemvalue="应用程序.SampleBeanMain" />
         <item itemvalue="应用程序.ReadResourcesMain" />
       </list>
@@ -136,8 +146,16 @@
       <workItem from="1654599021454" duration="8683000" />
       <workItem from="1654648335516" duration="858000" />
       <workItem from="1654649239495" duration="101000" />
-      <workItem from="1654649378543" duration="780000" />
+      <workItem from="1654649378543" duration="5215000" />
     </task>
+    <task id="LOCAL-00001" summary="Create sample_bean,read_resources,web">
+      <created>1654652236242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654652236242</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +171,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create sample_bean,read_resources,web" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create sample_bean,read_resources,web" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

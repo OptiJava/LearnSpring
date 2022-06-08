@@ -1,18 +1,9 @@
-{% extends "_base.html" %}
-
-{% block main %}
-
 <form method="post" action="/signin">
     <h3>Sign In</h3>
-    {% if error != null %}
-    <div class="form-group">
-        <p id="error" class="text-danger">{{ error }}</p>
-    </div>
-    {% endif %}
     <div class="form-group">
         <label>Email</label>
         <label>
-            <input name="email" type="email" class="form-control" placeholder="Email" value="{{ email }}">
+            <input name="email" type="email" class="form-control" placeholder="Email" value="">
         </label>
     </div>
     <div class="form-group">
@@ -29,4 +20,3 @@
     </div>
 </form>
 
-{% endblock %}
