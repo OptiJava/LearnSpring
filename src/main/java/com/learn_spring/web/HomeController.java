@@ -15,4 +15,9 @@ public class HomeController {
         }
         return new ModelAndView("index.html");
     }
+
+    @GetMapping("/")
+    public ModelAndView redirectHome() {
+        return new ModelAndView("redirect:/home");
+    }
 }

@@ -19,7 +19,7 @@ public class UserController {
     public ModelAndView postSignup(@RequestParam("email") String email, @RequestParam("username") String username, @RequestParam("password") String password, HttpSession session) {
         User.user.put(email, new User(username, email, password.hashCode()));
         session.setAttribute("email", email);
-        return new ModelAndView("redirect:/home");
+        return new ModelAndView("redirect:/home?name=" + User.user.get(email).username);
     }
 
     @GetMapping("/signin")
@@ -31,7 +31,7 @@ public class UserController {
     public ModelAndView postSignup(@RequestParam("email") String email, @RequestParam("password") String password, HttpSession session) {
         if (User.user.get(email).passwordHash == password.hashCode()) {
             session.setAttribute("email", email);
-            return new ModelAndView("redirect:/home");
+            return new ModelAndView("redirect:/home?name=" + User.user.get(email).username);
         }
         return new ModelAndView("redirect:/signin");
     }
