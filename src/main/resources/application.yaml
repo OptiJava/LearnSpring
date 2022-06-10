@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: ${APP_NAME:unnamed}

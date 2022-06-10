@@ -1,17 +1,16 @@
-package com.learn_spring.sample_bean;
+package com.learn_spring;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
+@EnableWebMvc
 @Configuration
 @ComponentScan
-public class SampleBeanMain {
+public class SpringBootMain {
     public static void main(String[] args) {
-        ApplicationContext context = new AnnotationConfigApplicationContext(SampleBeanMain.class);
-        UserService s = context.getBean(UserService.class);
-        System.out.println(s.service);
-        System.out.println(s.prop);
+        ApplicationContext context = new AnnotationConfigApplicationContext(SpringBootMain.class);
     }
 }
