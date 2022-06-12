@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20da51b1-8089-4370-9918-74064a410a7c" name="变更" comment="Update web">
-      <change afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn_spring/HomeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn_spring/SpringBootMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/Test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn_spring/web/Spring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn_spring/read_resources/ReadResourcesMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn_spring/sample_bean/SampleBeanMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn_spring/sample_bean/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn_spring/sample_bean/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn_spring/web/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn_spring/web/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn_spring/web/user/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn_spring/web/user/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ReadResources/Config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn_spring/SpringBootMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn_spring/web/HomeServlet.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +83,7 @@
       <recent name="D:\Program\Project\resources\app\Git\Projects\LearnSpring\src\main\java\com\learn_spring\ReadResources" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.SpringBootMain">
+  <component name="RunManager" selected="应用程序.com.learn_spring.SpringBootMain">
     <configuration name="SampleBeanMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn_spring.sample_bean.SampleBeanMain" />
       <module name="LearnSpring.main" />
@@ -112,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn_spring.SpringBootMain" />
+    <configuration name="WebConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn_spring.web.WebConfig" />
       <module name="LearnSpring.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn_spring.*" />
+          <option name="PATTERN" value="com.learn_spring.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn_spring.web.WebConfig" />
+    <configuration name="com.learn_spring.SpringBootMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn_spring.SpringBootMain" />
       <module name="LearnSpring.main" />
       <extension name="coverage">
         <pattern>
@@ -156,7 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.SpringBootMain" />
+        <item itemvalue="应用程序.com.learn_spring.SpringBootMain" />
         <item itemvalue="Spring Boot.SpringBootMain" />
         <item itemvalue="HTTP 请求.generated-requests | #1" />
         <item itemvalue="应用程序.WebConfig" />
@@ -180,7 +165,8 @@
       <workItem from="1654648335516" duration="858000" />
       <workItem from="1654649239495" duration="101000" />
       <workItem from="1654649378543" duration="10784000" />
-      <workItem from="1654819185549" duration="1443000" />
+      <workItem from="1654819185549" duration="1865000" />
+      <workItem from="1655017034586" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="Create sample_bean,read_resources,web">
       <created>1654652236242</created>
@@ -203,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654658966658</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update web">
+      <created>1654820912344</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654820912344</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
